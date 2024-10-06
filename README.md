@@ -1,4 +1,4 @@
-Proyecto Spring Boot con PostgreSQL
+Spring Boot con PostgreSQL
 Descripción
 Este proyecto es una aplicación backend desarrollada en Java utilizando Spring Boot, diseñada para gestionar un conjunto de datos. Emplea PostgreSQL como base de datos relacional y Docker para contenerizar tanto la aplicación como la base de datos.
 
@@ -33,6 +33,7 @@ Usa el código con precaución.
 Acceder a la aplicación: La aplicación estará disponible en el puerto especificado en el archivo docker-compose.yml. Puedes utilizar Postman para realizar solicitudes a los endpoints de la API.
 Base de Datos
 Esquema: La estructura de la base de datos se encuentra definida en las entidades de Spring Data JPA.
+Migraciones: (Si aplica) Se pueden encontrar scripts de migración en la carpeta db/migration.
 Pruebas
 Tests unitarios: Cubren la lógica de negocio de los servicios.
 Tests de integración: Verifican la interacción entre los componentes de la aplicación.
@@ -42,4 +43,3 @@ Consideraciones Adicionales
 Seguridad: Implementar medidas de seguridad adecuadas para proteger los datos de la aplicación.
 Documentación: Ampliar la documentación para explicar en detalle las funcionalidades de la aplicación.
 CI/CD: Configurar una pipeline de CI/CD para automatizar la construcción, pruebas y despliegue de la aplicación.
-
